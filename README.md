@@ -1,15 +1,22 @@
-# USACE ASBOG Study Tool
+# USACE ASBOG Study Tool — v5.2 Group Release
 
-Unofficial USACE study aid for ASBOG FG/PG preparation.
+Unofficial small-group study aid for ASBOG FG/PG preparation.
 
+## Features
 - 580 original practice questions
-- Visual/scenario sets
+- 80 visual/scenario questions
 - FG exam simulation
-- Supabase per-user cloud progress
-- GitHub Pages hosting
+- Per-user Supabase cloud progress
+- Automatic progress synchronization
+- Password reset/recovery
+- Review filters and mastery tracking
+- Local progress fallback + JSON export/import
 
-This is not an official ASBOG product and is not affiliated with or endorsed by ASBOG.
+## Update the hosted site
+Replace the repository-root `index.html` with this version and commit it. GitHub Pages will redeploy automatically.
 
-## Update existing site
-Replace the repository-root `index.html` with this file and commit the change.
-The GitHub Pages URL, Supabase project, user accounts, and saved progress remain unchanged.
+## Important
+- Existing Supabase users and study progress are preserved.
+- The Supabase project/database schema does not need to be recreated.
+- The embedded Supabase credential is a publishable browser key. Never add a secret/service-role key.
+- This is an unofficial study aid and is not affiliated with or endorsed by ASBOG.
